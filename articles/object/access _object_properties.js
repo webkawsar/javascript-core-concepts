@@ -21,6 +21,6 @@ console.log(profile[pro]); // Web Developer
 const { profession } = profile;
 console.log(profession); // Web Developer
 
-// checking key 
+// checking key exist or not
 console.log('firstName' in profile);
 
