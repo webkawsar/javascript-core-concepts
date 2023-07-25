@@ -22,6 +22,9 @@ console.log(profile.fullName())
 
 
 // rules
+// implicit this binding (javascript define this)
+// explicit this binding
+
 // Global Context
 // global context e this window ke indicate kore
 
