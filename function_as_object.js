@@ -6,12 +6,12 @@ function greet() {
     return 'Hi';
 }
 
-// console.log(greet());
+console.log(greet());
 
 greet.value = 'greet function';
-// console.log(greet)
+console.log(greet)
 // console.log(greet.value)
 
-// console.log(greet());
+console.log(greet());
 
 
