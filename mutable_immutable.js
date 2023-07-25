@@ -1,6 +1,6 @@
 
 
-// All Primitives Mutable
+// All Primitives are immutable
 const str = 'Bangladesh';
 str[5] = 'K';
 console.log(str)
