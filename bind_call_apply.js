@@ -21,9 +21,6 @@
 
 
 
-
-
-
 // Zonayed vai rules
 // ১। গ্লোবাল রুলস
 // ২। অবজেক্ট রুলস
@@ -85,8 +82,7 @@ bindingValue(1, 2);
 // sayHi.apply('Kawsar', [1, 2]);
 
 
-// Bind / Call / Apply
-
+// examples 4
 const karim = {
     name: 'Karim Rahman',
     dob: 1996,
