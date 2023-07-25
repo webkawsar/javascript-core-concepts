@@ -13,3 +13,10 @@ a = 20;
 console.log(a);
 console.log(b);
 
+
+// compare by value
+console.log(a === b)
+
+
+
+

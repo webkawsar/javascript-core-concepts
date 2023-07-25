@@ -15,3 +15,6 @@ console.log(obj2);
 
 
 
+// compare by reference
+console.log(obj1 === obj2)
+
