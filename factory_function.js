@@ -1,12 +1,11 @@
 
 
 const productOne = {
-    name: 'Friezean Cow',
+    name: 'Friesian Cow',
     price: 200000,
     children: true
 }
 console.log(productOne);
-
 
 
 const productTwo = {
@@ -15,7 +14,6 @@ const productTwo = {
     children: true
 }
 console.log(productTwo);
-
 
 
 
@@ -28,24 +26,7 @@ function cow(name, price, children) {
     }
 }
 
-console.log(cow('Friezean Cow', 400000, true))
+console.log(cow('Friesian Cow', 400000, true))
 console.log(cow('Sahiwal Cow',2500000, true))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -116,4 +116,33 @@ const rahimAge = karim.age.bind(rahim, 2022);
 rahimAge("Hi Guys")
 
 
+// examples 5
+const object = {
+    name: 'Karim Rahman',
+    dob: 1996,
+    fullName() {
+
+        console.log(`Mr. ${this.name}`);
+
+        // return function() {
+        //     return `Mr. ${this.name}`;
+        // }
+
+
+        // const that = this;
+        // return function() {
+        //     return `Mr. ${that.name}`;
+        // }
+
+        return () => {
+            return `Mr. ${this.name}`;
+        }
+
+    }
+}
+
+// nested function this problem solve can by two way
+// one is use variable another is use arrow function
+console.log(object.fullName()())
+
 
