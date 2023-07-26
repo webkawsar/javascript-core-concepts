@@ -18,4 +18,7 @@
 // 1. Introduction Math
 // 2. generate random number
 // 3. Working with Date
-// 4. 
+// 4. formatting date
+// 5. getting and setting date
+// 6. timer practical projects
+// exercise
