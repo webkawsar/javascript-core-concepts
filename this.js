@@ -263,3 +263,5 @@ console.log(pAthlete);
 
 
 
+// arrow function er nijjosso kuno this binding nei
+// arrow function ke bind, call, apply er sathe this bind kore dilew se parent context er this nibe
