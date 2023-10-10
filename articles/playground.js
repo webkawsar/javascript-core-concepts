@@ -6,14 +6,10 @@
 
 
 
-const myObject = {
-    value: 42,
-    getValue: function () {
-        return this.value;
-    }
-}
 
-const getValue = myObject.getValue;
-console.log(getValue())
+
+
+
+
 
 
