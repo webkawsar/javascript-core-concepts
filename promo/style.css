@@ -1,0 +1,17 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --tomato: tomato;
+}
+
+.isDark {
+  --tomato: black;
+}
+
+.container .box {
+  border: 5px solid var(--tomato);
+}
+
+.btnDiv p {
+  color: var(--tomato);
+}
