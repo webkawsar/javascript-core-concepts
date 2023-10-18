@@ -35,3 +35,4 @@ String.prototype.split()
 
 what is the properties and method in JavaScript?
 
+How to learn JavaScript?
