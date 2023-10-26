@@ -1,18 +1,25 @@
-// আজকে আমরা দেখব একটা স্ট্রিং কে কতভাবে নাম্বারে কনভার্ট করা যায়।
+আজকে আমরা দেখব একটা স্ট্রিং কে কতভাবে নাম্বারে কনভার্ট করা যায়।
 
-// একটু এক্সাম্পল দেখে নিলে আমাদের বুঝতে সুবিধা হবে, যেমনঃ
+একটু এক্সাম্পল দেখে নিলে আমাদের বুঝতে সুবিধা হবে, যেমনঃ
+
 ```
 let stringNumber = '420';
-``` // আমরা যদি এটার টাইপ চেক করি তাহলে স্ট্রিং দেখাচ্ছে
+``` 
+
+আমরা যদি এটার টাইপ চেক করি তাহলে স্ট্রিং দেখাচ্ছে
+
+
 ```
 let stringNumber = '420';
 console.log(typeof stringNumber); // string
-```;
+```
 
-// আমি চাচ্ছি এটাকে নাম্বারে কনভার্ট করতে তাহলে প্রথমে যেটা আমরা করতে পারি Number কনস্ট্রাক্টর দিয়ে ডাটা টাইপ পরিবর্তন করে ফেলতে পারি এভাবেঃ
+আমি চাচ্ছি এটাকে নাম্বারে কনভার্ট করতে তাহলে প্রথমে যেটা আমরা করতে পারি Number কনস্ট্রাক্টর দিয়ে ডাটা টাইপ পরিবর্তন করে ফেলতে পারি এভাবেঃ
 
+```
 let number = Number(stringNumber);
 console.log(typeof number); // number
+```
 
 // global JavaScript methods
 // let stringNumber = '420';
@@ -75,6 +82,10 @@ console.log(~~negStr); // expected result: -234
 const n = Number();
 console.log(n instanceof Number);
 
+
+
+
+/****************************************** Reference Text *******************************/
 // https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 // https://www.freecodecamp.org/news/how-to-convert-a-string-to-a-number-in-javascript/
 // https://i.stack.imgur.com/PXxhB.png
