@@ -10,13 +10,15 @@
 // spread dekhanur aage concat diye add kora dekhale valo hobe
 
 /**
-JavaScript Topics: 
+JavaScript Topics => Completed
+
 Data Types 
 How to create an Array 
+how to works built in method in JavaScript
 How to check is NaN or Not part -1 
 How to check is NaN or Not part -2
 How many ways access Object 
-String.prototype.split()  => complete
+String.prototype.split()
 
 */
 
