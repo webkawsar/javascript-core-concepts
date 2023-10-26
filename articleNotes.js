@@ -13,11 +13,14 @@
 JavaScript Topics => Completed
 
 Data Types 
+Primitive Data Type 
+Primitive Value 
+Prototype in Hints
 How to create an Array 
+How many ways access Object 
 how to works built in method in JavaScript
 How to check is NaN or Not part -1 
 How to check is NaN or Not part -2
-How many ways access Object 
 String.prototype.split()
 
 */
