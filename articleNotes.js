@@ -31,12 +31,15 @@ this
 Factory function, constructor function 
 Copy by value/copy by reference 
 shallow copy / deep copy from object 
-mutable vs immutable 
 destructuring and spread   
 
 
+mutable vs immutable 
 what is the properties and method in JavaScript?
+
+
 How to learn JavaScript?
+ weakly typed language
 */
 
 /*
