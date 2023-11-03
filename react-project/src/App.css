@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: tahoma;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+.table thead tr {
+  background-color: grey
+}
+
+.table thead tr th {
+  color: white;
+}
+
+.table tbody tr {
+  background-color: cyan;
+}
+
+.grey {
+  background-color: #f2f2f2 !important;
+}
+
+caption {
+  padding: 10px 20px;
+}

@@ -26,3 +26,23 @@ console.log(x == y);
 console.log(x === y);
 console.log(Object.is(x, y));
 console.log(Object.is(NaN, NaN));
+
+let profession = "JavaScript Developer";
+profession[0] = "E";
+console.log(profession); // "JavaScript Developer"
+
+const arr = [NaN];
+console.log(arr.includes(NaN)); // true
+
+function sameValueZero(a, b) {
+  if (a === b || (Number.isNaN(a) && Number.isNaN(b))) {
+    return true;
+  }
+
+  return false;
+}
+
+console.log(sameValueZero("Hello", "Hello"));
+console.log(sameValueZero(NaN, NaN));
+console.log(sameValueZero(NaN, "Hello"));
+console.log(Number.isNaN("Hello"));
