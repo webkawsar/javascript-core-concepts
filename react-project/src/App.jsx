@@ -52,7 +52,7 @@ const App = () => {
         {teams.map((member, index) => {
           const { id, firstName, lastName, email } = member;
           return (
-            <tr key={id} className={(id % 2) !== 0 ? "grey" : ""}>
+            <tr key={id} className={(id % 2) !== 0 ? "stripped" : ""}>
               <td>{id}</td>
               <td>{firstName}</td>
               <td>{lastName}</td>
