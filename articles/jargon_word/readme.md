@@ -17,9 +17,6 @@ console.log(profession) // "JavaScript Developer"
 > Primitive data types are immutable, meaning their values cannot be changed once they are created.
 > They are directly stored in memory, and when you work with them, you operate on the actual value itself, not a reference to an object.
 
-> there is no way to change a primitive value once it gets created. A primitive value can be replaced,
-> but it can't be directly altered
-
 আর `Reference/Complex` ডাটা টাইপের ক্ষেত্রে সরাসরি কোন ডাটাকে স্টোর না করে বরং মেমরীতে একটি জায়গা নির্ধারন করে **ঐ জায়গার রেফারেন্স স্টোর করে** ভ্যারিয়েবল এর মাঝে। ফলে এই ধরনের ডাটাকে পরিবর্তন করা যায় যেমনঃ
 
 ```
